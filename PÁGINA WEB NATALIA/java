@@ -1,0 +1,9 @@
+@RestController
+@RequestMapping("/music")
+public class MusicController {
+
+    @GetMapping("/play")
+    public String playSong() {
+        return "Reproduciendo canción...";
+    }
+}
